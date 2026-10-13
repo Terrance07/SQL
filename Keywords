@@ -1,0 +1,60 @@
+SELECT     --- Retrieves data from a table
+FROM	     --- Specifies the table
+WHERE	     --- Filters rows based on a condition	
+DISTINCT	 --- Removes duplicate values	
+ORDER BY	 --- Sorts the results
+GROUP BY	 --- Groups rows with the same values	
+HAVING	   --- Filters grouped results	
+LIMIT	     --- Restricts the number of returned rows 
+AS	       --- Assigns an alias to a column or table
+
+2. Data Manipulation Keywords (DML)
+INSERT INTO	 --- Adds new records
+UPDATE	     --- Modifies existing records
+DELETE	     --- Removes records
+REPLACE INTO ---	Inserts or replaces a record in MySQL
+
+3. Data Definition Keywords (DDL)
+CREATE	  --- Creates a database or table
+ALTER	    --- Modifies a table structure
+DROP	    --- Deletes a database object
+TRUNCATE	--- Removes all rows from a table
+RENAME	  ---Renames a database object (syntax varies)
+
+4. Filtering and Condition Keywords
+AND	      --- All conditions must be true
+OR	      --- At least one condition must be true
+NOT	      --- Reverses a condition
+IN	      --- Matches any value in a list
+BETWEEN	  --- Checks a range of values
+LIKE	    --- Searches using a pattern
+IS NULL	  --- Checks for missing or NULL values
+EXISTS	  --- Checks whether a subquery returns rows
+ANY	      --- Compares against any value returned by a subquery
+ALL	      --- Compares against every value returned by a subquery
+
+5. Aggregate Function Names
+COUNT()	---Counts rows or non-NULL values
+SUM()	  ---Calculates the total
+AVG()	  ---Calculates the average
+MIN()	  ---Finds the minimum value
+MAX()	  ---Finds the maximum value
+
+6. Joins and Relationships
+JOIN	      --- Combines rows from tables
+INNER JOIN  ---	Returns matching rows from both tables
+LEFT JOIN	  --- Returns all left-table rows and matching right-table rows
+RIGHT JOIN	--- Returns all right-table rows and matching left-table rows
+CROSS JOIN	--- Returns combinations of rows from both tables
+ON	        --- Specifies the join condition
+UNION	      --- Combines results and removes duplicates
+UNION ALL	  --- Combines results and keeps duplicates
+
+7. Constraints and Keys
+PRIMARY KEY  --- Uniquely identifies each row
+FOREIGN KEY	 --- Establishes a relationship with another table
+UNIQUE	     --- Prevents duplicate values in a constrained column or column combination
+NOT NULL	   --- Prevents NULL values
+DEFAULT	     --- Specifies a default value
+CHECK	       --- Enforces a condition on values
+REFERENCES	 --- Identifies the referenced table and columns
