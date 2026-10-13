@@ -1,2 +1,2 @@
 # SQL
-A repository for learning and practising MySQL, covering database creation, SQL queries, filtering, sorting, aggregate functions, joins, subqueries, and advanced SQL concepts. Includes practical examples and exercises to improve SQL skills.
+This repository contains my MySQL learning journey and SQL practice programs. It includes basic to advanced SQL concepts with practical examples and queries.
